@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kevin Le – Portfolio</title>
+  <!-- Pixel / Console Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <header id="header">
+    <nav class="nav container">
+      
+      <a href="#home" class="nav__logo">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+      </a>
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+
+  
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="home container">
+      <div class="home_data">
+        <h1>Hello, I’m <span>Kevin Le</span></h1>
+        <p>Junior Software Developer passionate about building web experiences.</p>
+      </div>
+      <div class="home_img">
+        <img src="assets/profileimg.jpg" alt="Kevin Le" />
+      </div>
+      <div class="home_social">
+        <a href="https://www.linkedin.com/in/kevin-le-67065b285/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/kevunre123/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <div class="home-icons">
+        <i class="fa-brands fa-html5 fa-2xl"></i>
+        <i class="fa-brands fa-css fa-2xl"></i>
+        <i class="fa-brands fa-js fa-2xl"></i>
+        <i class="fa-brands fa-python fa-2xl"></i>
+      </div>
+
+
+      
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about container">
+      <h2 class="about_title">About Me</h2>
+      <p>I am an aspiring software developer based in Birmingham, U.K., having experience in HTML, CSS, C# and JavaScript. </p>
+      <p>My passion for coding and design led me to complete a Software Development bootcamp, allowing me to further develop my skillset. </p>
+      <h2 class="hobbies">Hobbies</h2>
+      <p>I enjoy cooking, aviation, gaming and coding.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects container">
+    <h2>My Projects</h2>
+
+
+
+    <div class="projects__grid">
+      <!-- Quote of the Day Chrome Extension -->
+      <div class="project-card memory-match" data-category="web">
+        <img
+          src="../quoteExtApp/quote-screenshot.png"
+          alt="Quote of the Day Chrome Extension"
+        />
+        <div class="card-content">
+          <h3>Quote of the Day<br/>Chrome Extension</h3>
+          <p>
+            A Chrome extension that fetches random inspirational quotes, caches the last one,
+            adds a context-menu action, sends desktop notifications, and lets you copy the quote.
+          </p>
+          <p><strong>Tech:</strong> HTML · CSS · JavaScript · Chrome Extensions API</p>
+          <a href="https://github.com/your-username/quote-of-the-day" target="_blank">
+            View Code
+          </a>
+          <a href="https://chrome.google.com/webstore/detail/your-extension-id" target="_blank">
+            Chrome Web Store
+          </a>
+        </div>
+      </div>
+      <!-- Aviation Weather App -->
+      <div class="project-card weather-app" data-category="web">
+        <img
+          src="../aviationApp/aviation-screenshot.png"
+          alt="Aviation App Screenshot"
+        />
+        <div class="card-content">
+          <h3>Aviation App</h3>
+          <p>
+            An interactive aviation information app. Explore flight data, airport info, and more with a modern, responsive UI.
+          </p>
+          <p><strong>Tech:</strong> HTML · CSS · JavaScript</p>
+          <a href="../aviationApp/index.html" target="_blank">Live Demo</a>
+          <a href="https://github.com/your-username/aviation-app" target="_blank">View Code</a>
+        </div>
+      </div>
+      <!-- More of your project cards… -->
+      <!-- Memory Match Game Project Card -->
+      <div class="project-card memory-match" data-category="web">
+        <img
+          src="../memoryMatch/assets/memory-screenshot.png"
+          alt="Memory Match Game Screenshot"
+        />
+        <div class="card-content">
+          <h3>Memory Match Game</h3>
+          <p>
+            A fun memory card matching game featuring custom graphics. Flip cards, test your memory, and try to match all pairs!
+          </p>
+          <p><strong>Tech:</strong> HTML · CSS · JavaScript</p>
+          <a href="../memoryMatch/index.html" target="_blank">Play Now</a>
+          <a href="https://github.com/your-username/memory-match" target="_blank">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/yourFormID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

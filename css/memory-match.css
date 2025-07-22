@@ -1,0 +1,12 @@
+/* Memory Match Project Card Styles */
+.project-card.memory-match {
+  border: 2px solid #ff33aa;
+  background: linear-gradient(135deg, #0b0c10 80%, #ff33aa22 100%);
+}
+.project-card.memory-match img {
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ff33aa88;
+}
+.project-card.memory-match .card-content h3 {
+  color: #ff33aa;
+}
