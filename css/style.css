@@ -125,15 +125,10 @@ header {
   text-shadow: 0 0 4px var(--clr-text);
 }
 /* ================ Home Section   ================ */
+/* Styling containers */
+
 .home{
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  height: calc(100vh - 3rem);
-  flex-wrap: wrap;
-  row-gap: 1rem;
-  scroll-margin-top: 120px;
-  color:#7fda7c; */
+  margin-top: -4 0px;
   display: flex;                      /* Horizontal layout */
   align-items: center;               /* Vertical alignment */
   justify-content: center;           /* Center in parent container */
