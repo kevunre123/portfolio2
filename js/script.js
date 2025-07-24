@@ -67,3 +67,11 @@ const srr = ScrollReveal({
 });
 // scroll reveal animations for left side elements
 srr.reveal('.home_social', {delay: 200});
+
+srr.reveal('.work-process', {delay: 200});
+
+srr.reveal('.design', {delay: 200});
+srr.reveal('.planning', {delay: 200});
+srr.reveal('.development', {delay: 200});
+srr.reveal('.testing', {delay: 200});
+srr.reveal('.deployment', {delay: 200});
